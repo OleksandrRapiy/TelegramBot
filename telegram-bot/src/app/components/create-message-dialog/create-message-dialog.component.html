@@ -1,0 +1,17 @@
+<nb-card>
+  <nb-card-body class="example-items-rows">
+    <textarea nbInput fullWidth value="{{message}}" placeholder="Write a message..."></textarea>
+
+    <nb-form-field>
+    <input type="text" fullWidth status="basic" value="" #button nbInput placeholder="Button name">
+      <button nbSuffix nbButton ghost [disabled]="!button.value" (click)="addButton(button.value); button.value = ''">
+        <nb-icon [icon]="'plus'">
+        </nb-icon>
+      </button>
+    </nb-form-field>
+
+    <button nbButton size="tiny" class="telegram-button" *ngFor="let button of buttons" status="info">{{button}}</button>    
+  </nb-card-body>
+
+  <button nbButton outline status="primary" (click)="sendMessage()">Send</button>
+</nb-card>

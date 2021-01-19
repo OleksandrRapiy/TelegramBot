@@ -1,0 +1,18 @@
+<nb-layout>
+    <nb-layout-header>
+        <nb-select placeholder="Select receiver" status="danger" (selectedChange)="onSelectReceiver($event)">
+            <nb-option *ngFor="let item of receivers" value="{{item.chatId}}">
+                {{item.receiver == null ? item.chatId : item.receiver}}</nb-option>
+        </nb-select>
+    </nb-layout-header>
+
+    <nb-layout-column class="colored-column-basic">
+        <nb-chat title="Nebular Conversational UI" size="large">
+            <nb-chat-message *ngFor="let msg of messages" [type]="'text'" [message]="msg.messageText"
+                [sender]="msg.messageReceiver.receiver" [date]="msg.date">
+            </nb-chat-message>
+            <nb-chat-form (send)="sendMessage($event)" [showButton]="chatId" [dropFiles]="false">
+                            </nb-chat-form>
+        </nb-chat>
+    </nb-layout-column>
+</nb-layout>

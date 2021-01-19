@@ -1,0 +1,10 @@
+.telegram-button {
+    margin: 5px;
+}
+
+
+::ng-deep {
+    nb-dialog-container {
+        min-width: 500px !important;
+    }
+}
