@@ -1,17 +1,22 @@
 <nb-card>
   <nb-card-body class="example-items-rows">
-    <textarea nbInput fullWidth value="{{message}}" placeholder="Write a message..."></textarea>
+    <textarea nbInput #messageText value="{{message}}" fullWidth placeholder="Write a message..."></textarea>
 
-    <nb-form-field>
-    <input type="text" fullWidth status="basic" value="" #button nbInput placeholder="Button name">
-      <button nbSuffix nbButton ghost [disabled]="!button.value" (click)="addButton(button.value); button.value = ''">
+    <div class="input-container">
+      <input type="text" status="basic" value="" #button nbInput placeholder="Button name">
+      <input type="text" status="basic" value="" #buttonAction nbInput placeholder="Button action">
+
+      <button nbSuffix nbButton ghost [disabled]="!button.value"
+        (click)="addButton(button.value, buttonAction.value); button.value = ''; buttonAction.value = ''">
         <nb-icon [icon]="'plus'">
         </nb-icon>
       </button>
-    </nb-form-field>
+    </div>
 
-    <button nbButton size="tiny" class="telegram-button" *ngFor="let button of buttons" status="info">{{button}}</button>    
+    <button nbButton size="tiny" class="telegram-button" *ngFor="let button of buttons"
+      status="info">{{button.name}}</button>
   </nb-card-body>
 
-  <button nbButton outline status="primary" (click)="sendMessage()">Send</button>
+  <button nbButton outline status="primary" [disabled]="!messageText.value"
+    (click)="sendMessage(messageText.value)">Send</button>
 </nb-card>
