@@ -2,6 +2,15 @@
     margin: 5px;
 }
 
+.input-container{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+        margin: 5px;
+    }
+}
 
 ::ng-deep {
     nb-dialog-container {
