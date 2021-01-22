@@ -24,7 +24,7 @@ namespace TestIBWT.Handlers.Comands
                         );
 
 
-            //await next(context, cancellationToken);
+            await next(context, cancellationToken);
         }
     }
 }

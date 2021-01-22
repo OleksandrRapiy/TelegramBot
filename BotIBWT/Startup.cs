@@ -56,13 +56,14 @@ namespace TestIBWT
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseHttpsRedirection();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
             app.UseRouting();
-
 
             app.UseCors(options => options.AllowAnyMethod().AllowAnyOrigin().AllowAnyHeader());
 
@@ -76,13 +77,6 @@ namespace TestIBWT
 
         private IBotBuilder ConfigureBot()
         {
-            /*
-             * Questions to ask: 
-             * 1. What is delegate - next(IUpdate, CancelationToken)? 
-             * 2. How actually work long polling?
-             * 
-             */
-
             return new BotBuilder()
                        .MapWhen(When.NewMessage, comand =>
                             comand
