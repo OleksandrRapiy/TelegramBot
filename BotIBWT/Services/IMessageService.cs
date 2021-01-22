@@ -10,7 +10,6 @@ namespace BotIBWT.Services
     public interface IMessageService
     {
         Task AddNewMessageAsync(Telegram.Bot.Types.Message message);
-        Task SendMessage(MessageDto message);
-        Task<IEnumerable<Message>> GetMessagesAsync(Expression<Func<Message, bool>> predicate, params Expression<Func<Message, object>>[] expression);
+        Task SendMessageAsync(MessageDto message);
     }
 }

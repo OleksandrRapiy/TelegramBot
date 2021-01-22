@@ -45,12 +45,8 @@ namespace BotIBWT.Services
 
             await _messageRepository.AddAsync(messageToCreate);
         }
-        public async Task<IEnumerable<TestIBWT.Data.Message>> GetMessagesAsync(Expression<Func<Message, bool>> predicate, params Expression<Func<Message, object>>[] expression)
-        {
-            throw new NotSupportedException();
-        }
 
-        public async Task SendMessage(MessageDto message)
+        public async Task SendMessageAsync(MessageDto message)
         {
             var markup = new InlineKeyboardMarkup(message.Buttons.Select(x =>
                             InlineKeyboardButton.WithCallbackData(x.Name, x.Action)
