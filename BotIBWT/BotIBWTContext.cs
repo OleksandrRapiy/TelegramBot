@@ -11,7 +11,6 @@ namespace BotIBWT
 
         public BotIBWTContext(DbContextOptions<BotIBWTContext> options): base(options)
         {
-            //Database.Migrate();
         }
     }
 }
