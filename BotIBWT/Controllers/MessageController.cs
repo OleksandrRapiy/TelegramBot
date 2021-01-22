@@ -46,7 +46,7 @@ namespace BotIBWT.Controllers
         [HttpPost]
         public async Task<IActionResult> SendMessage([FromBody] MessageDto message)
         {
-            await _messageService.SendMessage(message);
+            await _messageService.SendMessageAsync(message);
 
             return Ok();
         }
