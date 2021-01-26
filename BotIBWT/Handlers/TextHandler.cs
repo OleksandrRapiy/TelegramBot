@@ -28,7 +28,6 @@ namespace TestIBWT.Handlers
             await _messageService.AddNewMessageAsync(message);
                   
 
-            //await next(context, cancellationToken);
         }
     }
 }

@@ -1,7 +1,6 @@
 E:\Development\TelegramBot\BotIBWT\obj\Debug\netcoreapp3.1\BotIBWT.csprojAssemblyReference.cache
 E:\Development\TelegramBot\BotIBWT\obj\Debug\netcoreapp3.1\BotIBWT.AssemblyInfoInputs.cache
 E:\Development\TelegramBot\BotIBWT\obj\Debug\netcoreapp3.1\BotIBWT.AssemblyInfo.cs
-E:\Development\TelegramBot\BotIBWT\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\Development\TelegramBot\BotIBWT\bin\Debug\netcoreapp3.1\appsettings.json
 E:\Development\TelegramBot\BotIBWT\bin\Debug\netcoreapp3.1\BotIBWT.exe
 E:\Development\TelegramBot\BotIBWT\bin\Debug\netcoreapp3.1\BotIBWT.deps.json
@@ -135,3 +134,4 @@ E:\Development\TelegramBot\BotIBWT\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.
 E:\Development\TelegramBot\BotIBWT\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 E:\Development\TelegramBot\BotIBWT\obj\Debug\netcoreapp3.1\BotIBWT.csproj.CoreCompileInputs.cache
 E:\Development\TelegramBot\BotIBWT\obj\Debug\netcoreapp3.1\BotIBWT.MvcApplicationPartsAssemblyInfo.cache
+E:\Development\TelegramBot\BotIBWT\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

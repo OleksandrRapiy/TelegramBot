@@ -1,0 +1,12 @@
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\net5.0\BotIBWT.Tests.deps.json
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\net5.0\BotIBWT.Tests.dll
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\net5.0\ref\BotIBWT.Tests.dll
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\net5.0\BotIBWT.Tests.pdb
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\BotIBWT.Tests.csprojAssemblyReference.cache
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\BotIBWT.Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\BotIBWT.Tests.AssemblyInfoInputs.cache
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\BotIBWT.Tests.AssemblyInfo.cs
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\BotIBWT.Tests.csproj.CoreCompileInputs.cache
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\BotIBWT.Tests.dll
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\ref\BotIBWT.Tests.dll
+E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\net5.0\BotIBWT.Tests.pdb
