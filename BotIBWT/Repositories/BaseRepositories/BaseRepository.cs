@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using TestIBWT.Data;
+using BotIBWT.Data;
 
-namespace TestIBWT.Repositories.BaseRepositories
+namespace BotIBWT.Repositories.BaseRepositories
 {
     public abstract class BaseRepository<T> : IBaseRepository<T> where T : Entity
     {
@@ -32,7 +32,7 @@ namespace TestIBWT.Repositories.BaseRepositories
         {
             IQueryable<T> query = Collections.AsNoTracking();
 
-            if(include != null)
+            if (include != null)
                 query = include(query);
 
             query = query.Where(predicate);

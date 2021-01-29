@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nq3W3zTUih25cAch7ugeVUMjX2cGRZrDDlIEEAsQtSjKLFHsTaf8cdciCUfBofNqHeZgmxW0OTzcDaqz91+LbQ==",
+  "dgSpecHash": "CiL0vMDb4B3akwLmUDKMTKJfDyWhJi2XmNV7rn+oP963H7j6nK32F8uc/VXasG+Hqoald4Z4sDJGSH0ejvtb0Q==",
   "success": true,
   "projectFilePath": "E:\\Development\\TelegramBot\\BotIBWT\\BotIBWT.csproj",
   "expectedPackageFiles": [
@@ -177,7 +177,9 @@
     "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\dezmo\\.nuget\\packages\\telegram.bot\\15.0.0\\telegram.bot.15.0.0.nupkg.sha512"
+    "C:\\Users\\dezmo\\.nuget\\packages\\telegram.bot\\15.0.0\\telegram.bot.15.0.0.nupkg.sha512",
+    "C:\\Users\\dezmo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "C:\\Users\\dezmo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.9\\microsoft.netcore.app.host.win-x64.3.1.9.nupkg.sha512"
   ],
   "logs": []
 }

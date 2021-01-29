@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TestIBWT.Data;
+using BotIBWT.Data;
 
 namespace BotIBWT
 {
-    public class BotIBWTContext: DbContext
+    public class BotIBWTContext : DbContext
     {
         public DbSet<Message> Messages { get; set; }
 
         public DbSet<MessageReceiver> MessageReceivers { get; set; }
 
-        public BotIBWTContext(DbContextOptions<BotIBWTContext> options): base(options)
+        public BotIBWTContext(DbContextOptions<BotIBWTContext> options) : base(options)
         {
         }
     }

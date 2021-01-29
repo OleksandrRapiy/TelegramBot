@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot.Types;
 
-namespace TestIBWT.Handlers
+namespace BotIBWT.Handlers
 {
     public class CallbackHandler : IUpdateHandler
     {
@@ -12,7 +12,7 @@ namespace TestIBWT.Handlers
         {
             CallbackQuery callback = context.Update.CallbackQuery;
 
-            await context.Bot.Client.SendTextMessageAsync(context.Update.GetChatId(), "The hidden data from Button: \n" +  callback.Data);
+            await context.Bot.Client.SendTextMessageAsync(context.Update.GetChatId(), "The hidden data from Button: \n" + callback.Data);
 
             //await next(context, cancellationToken);
 

@@ -1,7 +1,7 @@
 ﻿using BotIBWT.Dtos;
 using System.Collections.Generic;
 
-namespace TestIBWT.Dtos
+namespace BotIBWT.Dtos
 {
     public class MessageDto
     {

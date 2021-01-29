@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TestIBWT.Data;
-using TestIBWT.Repositories;
-using TestIBWT.Repositories.BaseRepositories;
+using BotIBWT.Data;
+using BotIBWT.Repositories;
+using BotIBWT.Repositories.BaseRepositories;
 using Xunit;
 using Xunit.Abstractions;
 

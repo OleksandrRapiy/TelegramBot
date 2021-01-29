@@ -214,7 +214,6 @@ E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\netcoreapp3.1\B
 E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\obj\Debug\netcoreapp3.1\BotIBWT.Tests.genruntimeconfig.cache
 E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
 E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\netcoreapp3.1\Moq.dll
-E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\netcoreapp3.1\Autofac.dll
 E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\netcoreapp3.1\Autofac.Extras.Moq.dll
 E:\Development\TelegramBot\BotIBWT.Tests\BotIBWT.Tests\bin\Debug\netcoreapp3.1\AutoFixture.dll

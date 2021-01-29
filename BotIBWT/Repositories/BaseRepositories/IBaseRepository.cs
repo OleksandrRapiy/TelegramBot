@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using TestIBWT.Data;
+using BotIBWT.Data;
 
-namespace TestIBWT.Repositories.BaseRepositories
+namespace BotIBWT.Repositories.BaseRepositories
 {
     public interface IBaseRepository<T> where T : Entity
     {

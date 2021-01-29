@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestIBWT.Data
+namespace BotIBWT.Data
 {
     public class Message : Entity
     {

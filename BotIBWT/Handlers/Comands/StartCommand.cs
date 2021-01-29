@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace TestIBWT.Handlers.Comands
+namespace BotIBWT.Handlers.Comands
 {
     public class StartCommand : CommandBase
     {

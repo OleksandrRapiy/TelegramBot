@@ -2,9 +2,9 @@
 using BotIBWT.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TestIBWT.Data;
-using TestIBWT.Dtos;
-using TestIBWT.Repositories.BaseRepositories;
+using BotIBWT.Data;
+using BotIBWT.Dtos;
+using BotIBWT.Repositories.BaseRepositories;
 
 namespace BotIBWT.Controllers
 {

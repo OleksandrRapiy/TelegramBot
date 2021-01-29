@@ -11,13 +11,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using TestIBWT.Data;
-using TestIBWT.Handlers;
-using TestIBWT.Handlers.Comands;
-using TestIBWT.Repositories;
-using TestIBWT.Repositories.BaseRepositories;
+using BotIBWT.Data;
+using BotIBWT.Handlers;
+using BotIBWT.Handlers.Comands;
+using BotIBWT.Repositories;
+using BotIBWT.Repositories.BaseRepositories;
 
-namespace TestIBWT
+namespace BotIBWT
 {
     public class Startup
     {

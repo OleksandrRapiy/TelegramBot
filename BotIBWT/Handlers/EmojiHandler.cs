@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot.Types;
 
-namespace TestIBWT.Handlers
+namespace BotIBWT.Handlers
 {
     public class EmojiHandler : IUpdateHandler
     {

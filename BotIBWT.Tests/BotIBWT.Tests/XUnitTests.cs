@@ -1,8 +1,7 @@
 ﻿using AutoFixture;
 using BotIBWT.Tests.FileToTests;
-using System;
 using System.Collections.Generic;
-using TestIBWT.Data;
+using BotIBWT.Data;
 using Xunit;
 
 namespace BotIBWT.Tests
@@ -23,7 +22,7 @@ namespace BotIBWT.Tests
         }
 
         [Theory]
-        [InlineData(12, -2, 12)]
+        [InlineData(12, 2, 12)]
         public void IsValid_MessageReceiver_Test(int id, long chatId, int expectedId)
         {
             var fixture = new Fixture();
@@ -32,6 +31,7 @@ namespace BotIBWT.Tests
                        .With(x => x.ChatId, chatId).Create();
 
             Assert.IsType<long>(sut.ChatId);
+            Assert.True(chatId > 0);
             Assert.Equal(expectedId, sut.Id);
         }
 

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace TestIBWT.Handlers.Comands
+namespace BotIBWT.Handlers.Comands
 {
     public class ButtonCommand : CommandBase
     {
@@ -19,10 +19,10 @@ namespace TestIBWT.Handlers.Comands
                         ParseMode.Default,
                         replyToMessageId: message.MessageId,
                         replyMarkup: new InlineKeyboardMarkup(
-                                new List<InlineKeyboardButton>() 
+                                new List<InlineKeyboardButton>()
                                 {
                                     InlineKeyboardButton.WithCallbackData("Show Message history", "history"),
-                                    InlineKeyboardButton.WithCallbackData("Cancel", "cancel") 
+                                    InlineKeyboardButton.WithCallbackData("Cancel", "cancel")
                                 }
                             ),
                         cancellationToken: cancellationToken

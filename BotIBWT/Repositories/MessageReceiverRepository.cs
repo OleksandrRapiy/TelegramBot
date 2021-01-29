@@ -1,9 +1,9 @@
 ﻿
 using BotIBWT;
-using TestIBWT.Data;
-using TestIBWT.Repositories.BaseRepositories;
+using BotIBWT.Data;
+using BotIBWT.Repositories.BaseRepositories;
 
-namespace TestIBWT.Repositories
+namespace BotIBWT.Repositories
 {
     public class MessageReceiverRepository : BaseRepository<MessageReceiver>
     {

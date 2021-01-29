@@ -19,7 +19,7 @@ namespace BotIBWT.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("TestIBWT.Data.Message", b =>
+            modelBuilder.Entity("BotIBWT.Data.Message", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace BotIBWT.Migrations
                     b.ToTable("Messages");
                 });
 
-            modelBuilder.Entity("TestIBWT.Data.MessageReceiver", b =>
+            modelBuilder.Entity("BotIBWT.Data.MessageReceiver", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -60,9 +60,9 @@ namespace BotIBWT.Migrations
                     b.ToTable("MessageReceivers");
                 });
 
-            modelBuilder.Entity("TestIBWT.Data.Message", b =>
+            modelBuilder.Entity("BotIBWT.Data.Message", b =>
                 {
-                    b.HasOne("TestIBWT.Data.MessageReceiver", "MessageReceiver")
+                    b.HasOne("BotIBWT.Data.MessageReceiver", "MessageReceiver")
                         .WithMany()
                         .HasForeignKey("MessageReceiverId");
                 });

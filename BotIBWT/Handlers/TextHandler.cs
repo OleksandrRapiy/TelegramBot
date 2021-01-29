@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot.Types;
 
-namespace TestIBWT.Handlers
+namespace BotIBWT.Handlers
 {
     public class TextHandler : IUpdateHandler
     {
@@ -26,7 +26,7 @@ namespace TestIBWT.Handlers
 
 
             await _messageService.AddNewMessageAsync(message);
-                  
+
 
         }
     }

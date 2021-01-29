@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R4y5d+MxsJpF7dOLRs4xlqu3Nkp4G5hY8NTZjr9r+NjVJO3KckUtCRQZVMB+hVlfHZTH52gyqdc8WcHl7sjr7g==",
+  "dgSpecHash": "pZ+BeLteI0T/4v+KLc+qpRe2LRr1f2Cr4BiarDfnA5kgEr6fdv6tpvyebNpiDSEjakcWpZkjkXMSnj+gdUPAVw==",
   "success": true,
   "projectFilePath": "E:\\Development\\TelegramBot\\BotIBWT.Tests\\BotIBWT.Tests\\BotIBWT.Tests.csproj",
   "expectedPackageFiles": [
@@ -196,7 +196,8 @@
     "C:\\Users\\dezmo\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\dezmo\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\dezmo\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\dezmo\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    "C:\\Users\\dezmo\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
+    "C:\\Users\\dezmo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using TestIBWT.Data;
-using TestIBWT.Dtos;
+using BotIBWT.Data;
+using BotIBWT.Dtos;
 
 namespace BotIBWT.Services
 {

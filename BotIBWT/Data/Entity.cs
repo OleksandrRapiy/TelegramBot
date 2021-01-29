@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TestIBWT.Data
+namespace BotIBWT.Data
 {
     public class Entity
     {
