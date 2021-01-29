@@ -12,7 +12,7 @@ using BotIBWT.Repositories.BaseRepositories;
 
 namespace BotIBWT.Services
 {
-    public class MessageService :               IMessageService
+    public class MessageService :        IMessageService
     {
         private readonly IBaseRepository<Message> _messageRepository;
         private readonly IBaseRepository<MessageReceiver> _messageReceiverRepository;
