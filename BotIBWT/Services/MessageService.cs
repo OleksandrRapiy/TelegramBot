@@ -29,7 +29,7 @@ namespace BotIBWT.Services
             _telegramBot = telegramBot;
         }
 
-        public async Task                   AddNewMessageAsync(Telegram.Bot.Types.Message message)
+        public async Task                  AddNewMessageAsync(Telegram.Bot.Types.Message message)
         {
             var receiver = await _messageReceiverRepository.GetByExpressionAsync(x => x.ChatId == message.Chat.Id && x.Receiver == message.Chat.Username);
 
