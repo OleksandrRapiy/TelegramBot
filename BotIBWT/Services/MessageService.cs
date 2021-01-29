@@ -21,7 +21,7 @@ namespace BotIBWT.Services
         public MessageService(
             IBaseRepository<Message> messageRepository,
             IBaseRepository<MessageReceiver> messageReceiverRepository,
-            TelegramBot telegramBot
+                         TelegramBot telegramBot
         )
         {
             _messageRepository = messageRepository;
