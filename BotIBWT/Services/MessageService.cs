@@ -46,7 +46,7 @@ namespace BotIBWT.Services
             await _messageRepository.AddAsync(messageToCreate);
         }
 
-        public async Task SendMessageAsync(MessageDto                   message)
+        public async Task SendMessageAsync(MessageDto                              message)
         {
             var markup = new InlineKeyboardMarkup(message.Buttons.Select(x =>
                             InlineKeyboardButton.WithCallbackData(x.Name, x.Action)
