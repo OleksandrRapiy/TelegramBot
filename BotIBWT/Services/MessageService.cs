@@ -12,7 +12,7 @@ using BotIBWT.Repositories.BaseRepositories;
 
 namespace BotIBWT.Services
 {
-                 public class MessageService :                       IMessageService
+    public class MessageService : IMessageService
     {
         private readonly IBaseRepository<Message> _messageRepository;
         private readonly IBaseRepository<MessageReceiver> _messageReceiverRepository;
@@ -29,7 +29,7 @@ namespace BotIBWT.Services
             _telegramBot = telegramBot;
         }
 
-                    public async Task               AddNewMessageAsync(Telegram.Bot.Types.Message message)
+        public async Task               AddNewMessageAsync(Telegram.Bot.Types.Message message)
         {
             var receiver = await _messageReceiverRepository.GetByExpressionAsync(x => x.ChatId == message.Chat.Id && x.Receiver == message.Chat.Username);
 
@@ -46,7 +46,7 @@ namespace BotIBWT.Services
             await _messageRepository.AddAsync(messageToCreate);
         }
 
-        public async Task SendMessageAsync(MessageDto                              message)
+        public async Task SendMessageAsync(MessageDto message)
         {
             var markup = new InlineKeyboardMarkup(message.Buttons.Select(x =>
                             InlineKeyboardButton.WithCallbackData(x.Name, x.Action)
